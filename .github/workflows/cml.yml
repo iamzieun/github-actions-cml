@@ -1,5 +1,6 @@
 name: model-training
 on: [push]
+permissions: read-all|write-all
 jobs:
   run:
     runs-on: ubuntu-latest
